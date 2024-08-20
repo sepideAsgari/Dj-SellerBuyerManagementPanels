@@ -1,0 +1,93 @@
+<template>
+  <section class="mainpt-0">
+    <div class="card card-carousel overflow-hidden hh-100 p-0">
+      <div id="carouselExampleCaptions" class="carousel slide hh-100" data-bs-ride="carousel">
+        <div class="carousel-inner border-radius-lg hh-100">
+          <div class="carousel-item hh-100 active" :style="{
+            backgroundImage:
+              'url(' + require('@/assets/img/carousels/carousel-000.jpg') + ')',
+            backgroundSize: 'cover',
+          }">
+            <!-- <div
+            class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5"
+          >
+            <div
+              class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3"
+            >
+              <i class="ni ni-camera-compact text-dark opacity-10"></i>
+            </div>
+            <h5 class="text-white mb-1">Get started with Argon</h5>
+            <p>
+              There’s nothing I really wanted to do in life that I wasn’t able
+              to get good at.
+            </p>
+          </div> -->
+          </div>
+          <div class="carousel-item hh-100" :style="{
+            backgroundImage:
+              'url(' + require('@/assets/img/carousels/carousel-000.jpg') + ')',
+            backgroundSize: 'cover',
+          }">
+            <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+              <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
+                <i class="ni ni-bulb-61 text-dark opacity-10"></i>
+              </div>
+              <h5 class="text-white mb-1">٬</h5>
+              <p>
+                That’s my skill. I’m not really specifically talented at anything
+                except for the ability to learn.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item hh-100" :style="{
+            backgroundImage:
+              'url(' + require('@/assets/img/carousels/carousel-000.jpg') + ')',
+            backgroundSize: 'cover',
+          }">
+            <div class="carousel-caption d-none d-md-block bottom-0 text-start start-0 ms-5">
+              <div class="icon icon-shape icon-sm bg-white text-center border-radius-md mb-3">
+                <i class="ni ni-trophy text-dark opacity-10"></i>
+              </div>
+              <h5 class="text-white mb-1">Share with us your design tips!</h5>
+              <p>
+                Don’t be afraid to be wrong because you can’t learn anything from
+                a compliment.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next w-5 me-3" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+</template>
+<script>
+export default {
+  name: 'MainCarousel'
+}
+</script>
+<style scoped>
+.card-carousel {
+  position: relative;
+  height: 400px;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
