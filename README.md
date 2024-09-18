@@ -23,3 +23,5 @@ No unique libraries were used. For the UI, Bulma and Babel were used.
 The database used is PostgreSQL. Similarly, standard Django libraries were utilized, which I will send as an attachment.
 
 For the server-side, Nginx, Gunicorn, and Supervisor were used to ensure the project can be expanded in the future and handle an increased number of users and request processing.
+
+The project will be deployed on the host soon.
